@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+ 
+ body {
+    background-color: rgba(83, 174, 197, 0.22);
+    background-image: url('thegreat.jpg');
+    background-size: cover;
+    background-repeat: inherit;
+    text-align: center;
+    font-family: poppins;
+    height: 100vh;
+ }
+
+ .container {
+   background: white;
+   max-width: 80%;
+   margin: auto;
+   border: 2px solid black;
+   border-radius: 10px;
+ }
+
+ h1 {
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+ }
+
+h2 {
+   font-size: 30px;
+   margin-top: 0;
+   margin-bottom: 20px;
+}
+
+ button {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid black;
+    color: #eee;
+    border-radius: 5px;
+    font-size: 20px;
+    width: 200px;
+    margin-bottom: 5px;
+    cursor: pointer;
+ }
+
+ #increment-btn {
+   background: darkred;
+ }
+
+ #save-btn {
+   background: darkgreen;
+ }
+
+ #save-el {
+   font-weight: bold;
+ }
